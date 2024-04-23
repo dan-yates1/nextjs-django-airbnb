@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import SearchFilters from "./SearchFilters";
 
 export default function Navbar() {
   return (
@@ -9,6 +10,14 @@ export default function Navbar() {
           <Link href="/">
             <Image src="/logo.svg" alt="RoamRental" width={180} height={38} />
           </Link>
+
+          <div className="flex space-x-6">
+            <SearchFilters />
+          </div>
+
+          <div className="flex items-center space-x-6">
+            hello
+          </div>
         </div>
       </div>
     </nav>
