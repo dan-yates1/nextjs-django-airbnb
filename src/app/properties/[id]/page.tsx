@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ReservationSidebar from "./ReservationSidebar";
+import ReservationSidebar from "../../../components/properties/ReservationSidebar";
 
 export default function PropertyDetailPage() {
   return (
@@ -41,7 +41,7 @@ export default function PropertyDetailPage() {
 
           <p className="mt-6 text-lg">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut viverra
-            non enim sit amet placerat.
+            non enim sit amet placerat felos.
           </p>
         </div>
         <ReservationSidebar />
