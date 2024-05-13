@@ -18,7 +18,7 @@ export default function PropertyDetailPage() {
           <h1 className="mb-4 text-4xl">Property name</h1>
 
           <span className="mb-6 block text-lg text-gray-600">
-            5 guests - 2 bedrooms - 1 bathroom
+            4 guests - 2 bedrooms - 1 bathroom
           </span>
 
           <hr />
