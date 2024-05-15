@@ -1,7 +1,7 @@
 export default function ContactButton() {
-    return (
-        <div>
-            <button>Contact button</button>
-        </div>
-    )
+  return (
+    <div className="py-4 px-6 bg-airbnb text-white rounded-xl mt-6 cursor-pointer hover:bg-airbnbDark transition">
+      Contact
+    </div>
+  );
 }

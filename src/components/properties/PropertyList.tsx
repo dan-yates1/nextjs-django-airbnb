@@ -6,6 +6,7 @@ export default function PropertyList() {
       <PropertyListItem />
       <PropertyListItem />
       <PropertyListItem />
+      <PropertyListItem />
     </>
   );
 }
